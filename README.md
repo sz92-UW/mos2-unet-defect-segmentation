@@ -15,7 +15,7 @@ Defect identification is important for understanding the quality and behavior of
 - Intersection-over-Union evaluation
 
 ## Results
-The model was trained to identify defect regions in MoS2 microscopy images. Training refinements improved the validation defect IoU from about 0.737 to about 0.84.
+The model was trained to identify defect regions in MoS2 microscopy images. Training records for different epoch settings are included, along with IoU comparison results and visual examples of predicted defect masks.
 
 ## Skills Demonstrated
 - Deep learning for materials images
@@ -26,10 +26,10 @@ The model was trained to identify defect regions in MoS2 microscopy images. Trai
 - Model evaluation and visualization
 
 ## Repository Structure
-- `notebooks/`: cleaned Jupyter notebook
-- `src/`: Python source code
-- `figures/`: selected result figures
-- `report/`: short project summary or final report
+- `mos2_U-Net_defect_segmentation.ipynb`: cleaned Jupyter notebook for the full U-Net defect segmentation workflow
+- `comparison_defect_iou.png`: summary figure comparing defect IoU performance across different training settings
+- `training_records/`: training history plots and result summary JSON files from model training
+- `key_results/`: core visual segmentation results, including original images, ground-truth masks, and predicted defect masks
 
 ## Notes
 This repository is a cleaned academic project summary. Private course materials, large raw datasets, and unnecessary temporary files are not included.
