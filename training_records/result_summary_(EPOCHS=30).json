@@ -1,0 +1,9 @@
+{
+  "run_name": "EPOCHS = 30",
+  "run_type": "improved",
+  "epochs_setting": 30,
+  "best_val_defect_iou_from_training": 0.8315550162489365,
+  "step_2j_mean_defect_iou": 0.8315550162489365,
+  "augmentation": "orig, fliplr, flipud, rot90, rot180, rot270",
+  "loss": "Focal CE + 0.45 * Focal Tversky"
+}
